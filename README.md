@@ -1,16 +1,24 @@
-### Hi there 👋
+# Arthur Da Mata Rabelo
 
-<!--
-**ArthurRabel/ArthurRabel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Sobre min:
 
-Here are some ideas to get you started:
+⠀⠀⠀⠀⠀⠀<code>Desenvolvedor Full Stack Junior</code>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+⠀⠀⠀⠀⠀⠀<code>Tecnico de informatica</code>
+
+⠀⠀⠀⠀⠀⠀<code>Distrito Federal</code>
+
+## Estudando Front-End: 
+
+
+⠀⠀⠀⠀⠀⠀`HTML` `CSS` `SASS` `JavaScript`
+       
+## Estudando Back-End: 
+
+⠀⠀⠀⠀⠀⠀`Java` `Spring` `MySql`
+
+## Entrar em contato comigo por:
+
+
+⠀⠀⠀⠀⠀⠀<code><a href="https://www.linkedin.com/in/arthur-da-mata-rabelo-5663871b6"><img width="48px" src="https://img.icons8.com/wired/64/000000/linkedin--v1.png" /></a></code> <code><a href="https://api.whatsapp.com/send?phone=5561995022477"><img width="48px" src="https://img.icons8.com/wired/64/000000/whatsapp.png" /></a></code>
+
