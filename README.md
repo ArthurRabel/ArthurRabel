@@ -4,6 +4,8 @@
 
 ⠀⠀⠀⠀⠀⠀<code>Desenvolvedor Full Stack Junior</code>
 
+       <code>Cursando Analise e Desenvolvimento de Software</code>
+       
 ⠀⠀⠀⠀⠀⠀<code>Tecnico de informatica</code>
 
 ⠀⠀⠀⠀⠀⠀<code>Distrito Federal</code>
