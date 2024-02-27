@@ -2,22 +2,21 @@
 
 ## Sobre min:
 
-⠀⠀⠀⠀⠀⠀<code>Desenvolvedor Full Stack Junior</code>
+`Desenvolvedor Full Stack Junior`
 
-       <code>Cursando Análise e Desenvolvimento de Sistemas</code>
-       
-⠀⠀⠀⠀⠀⠀<code>Tecnico de informatica</code>
+`Análise e Desenvolvimento de Sistemas`
+   
+`Tecnico de informatica`
 
-⠀⠀⠀⠀⠀⠀<code>Distrito Federal</code>
+`>Distrito Federal`
 
 ## Estudando Front-End: 
 
-
-⠀⠀⠀⠀⠀⠀`HTML` `CSS` `SASS` `JavaScript`
+`HTML` `CSS` `SASS` `JavaScript`
        
 ## Estudando Back-End: 
 
-⠀⠀⠀⠀⠀⠀`Java` `Spring` `MySql`
+`Java` `Spring` `MySql`
 
 ## Entrar em contato comigo por:
 
