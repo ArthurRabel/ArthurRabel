@@ -4,7 +4,7 @@
 
 ⠀⠀⠀⠀⠀⠀<code>Desenvolvedor Full Stack Junior</code>
 
-       <code>Cursando Analise e Desenvolvimento de Software</code>
+       <code>Cursando Análise e Desenvolvimento de Sistemas</code>
        
 ⠀⠀⠀⠀⠀⠀<code>Tecnico de informatica</code>
 
