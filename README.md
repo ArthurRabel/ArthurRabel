@@ -8,7 +8,7 @@
    
 `Tecnico de informatica`
 
-`>Distrito Federal`
+`Distrito Federal`
 
 ## Estudando Front-End: 
 
