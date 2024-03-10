@@ -12,11 +12,7 @@
 
 ## Estudando Front-End: 
 
-`HTML` `CSS` `SASS` `JavaScript`
-       
-## Estudando Back-End: 
-
-`Java` `Spring` `MySql`
+`HTML` `CSS` `SASS` `JavaScript` `React` `Styled-Components` `tailwind` `React`
 
 ## Entrar em contato comigo por:
 
