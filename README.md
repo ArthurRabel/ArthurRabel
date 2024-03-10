@@ -2,7 +2,7 @@
 
 ## Sobre min:
 
-`Desenvolvedor Full Stack Junior`
+`Desenvolvedor Front-End`
 
 `Análise e Desenvolvimento de Sistemas`
    
