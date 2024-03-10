@@ -4,10 +4,12 @@ import Introduction from './components/introduction/index';
 import About from './components/about/index';
 import Project from './components/project/index';
 import Footer from './components/footer/index';
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
   return (
     <>
+      <Analytics/>
       <Header />
       <main>
         <Introduction />
