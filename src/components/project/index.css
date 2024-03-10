@@ -1,0 +1,74 @@
+
+.c-project{
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;    
+}
+
+.c-project img{
+    width: 45%;
+    border-radius: 10px;
+}
+.c-project div{
+    margin-left: 50px;
+    width: 35%;
+}
+
+.c-project h2{
+    font-size: var(--titulo-secundario);
+    color: var(--color1);
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.c-project p{
+    font-size: var(--texto-normal);
+    color: var(--colorFont1);
+    font-weight: 300;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+.c-project button{
+    cursor: pointer;
+    width: 160px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--color2);
+    font-size: var(--titulo-secundario);
+    color: var(--color3);
+}
+@media (max-width:1200px){
+    .c-project{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+        margin: 80px auto;
+    }
+    .c-project img{
+        align-self: center;
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .c-project div{
+        width: 100%;
+        margin: 0;
+    }
+}
+@media (max-width:801px){
+    .c-project{
+        margin: 50px auto;
+    }
+    .c-project img{
+        margin-bottom: 60px;
+    }
+}
+@media (max-width:600px){
+    .c-project{
+        margin: 30px auto;
+    }
+    .c-project img{
+        margin-bottom: 40px;
+    }
+}

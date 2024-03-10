@@ -1,0 +1,23 @@
+
+.c-introduction{
+    width: 75vw;
+    margin: 265px auto 300px;
+}
+.c-introduction h2{
+    font-size: var(--titulo-secundario);
+    font-weight: 500;
+    color: var(--colorFont2);
+}
+.c-introduction h1{
+    color: var(--colorFont1);
+    font-size: var(--titulo-principal);
+    font-weight: 300;
+}
+.c-introduction span{
+    color: var(--color1);
+    font-weight: 600;
+}
+.c-introduction p{
+    color: var(--colorFont1);
+    font-size: var(--texto-normal);
+}
