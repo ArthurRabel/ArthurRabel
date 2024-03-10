@@ -1,5 +1,3 @@
-import React from 'react';
-
 import './index.css';
 
 export default function experience() {
@@ -8,4 +6,4 @@ export default function experience() {
             
         </article>
     )
-};
+}

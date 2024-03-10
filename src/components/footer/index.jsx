@@ -1,5 +1,3 @@
-import React from 'react';
-
 import './index.css';
 
 export default function footer() {
@@ -8,4 +6,4 @@ export default function footer() {
             
         </footer>
     )
-};
+}

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import './index.css';
 
 export default function arrow() {
@@ -13,4 +11,4 @@ export default function arrow() {
             </div>
         </>
     )
-};
+}

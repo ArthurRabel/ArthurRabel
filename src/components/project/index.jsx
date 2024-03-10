@@ -1,12 +1,10 @@
-import React from 'react';
-
 import './index.css';
 
 export default function project({urlImg,title,text,skils,urlGithub}) {
     return (
         <>
             <article className='c-project'>
-                <img src={urlImg} width="800"></img>
+                <img alt='foto do projeto' src={urlImg} width='800'></img>
                 <div>
                     <h2>{title}</h2>
                     <p>{text}</p>
