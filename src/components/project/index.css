@@ -18,7 +18,7 @@
 .c-project h2{
     font-size: var(--titulo-secundario);
     color: var(--color1);
-    font-weight: 800;
+    font-weight: 600;
     margin-bottom: 20px;
 }
 .c-project p{
