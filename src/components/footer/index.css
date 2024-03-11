@@ -8,7 +8,13 @@
     align-items: center;
 }
 .c-footer p{
+    max-width: 70%;
     color: var(--colorFont3);
     font-size: 14px;
     font-weight: 500;
+}
+@media (max-width:400px){
+    .c-footer p{
+        font-size: 11px;
+    }
 }
