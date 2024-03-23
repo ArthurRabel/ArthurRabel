@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: https://arthur-rabelo.vercel.app/sitemap.xml
+Sitemap: https://arthurrabelo.com.br/sitemap.xml
