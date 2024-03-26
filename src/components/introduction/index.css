@@ -15,7 +15,7 @@
 .c-introduction h2{
     font-size: var(--titulo-secundario);
     font-weight: 500;
-    color: var(--colorFont2);
+    color: var(--color1);
 }
 .c-introduction h1{
     color: var(--colorFont1);
@@ -24,7 +24,7 @@
     margin: 5px 0;
 }
 .c-introduction span{
-    color: var(--color1);
+    color: var(--color2);
     font-weight: 600;
 }
 .c-introduction p{
