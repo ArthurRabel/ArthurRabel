@@ -40,7 +40,8 @@
     box-sizing: border-box;
 }
 
-body{
+html{
+    scroll-behavior: smooth;
     max-width: 100%;
     background-color: var(--color5);
 }

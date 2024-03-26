@@ -2,13 +2,11 @@ import './index.css';
 
 export default function arrow() {
     return (
-        <>
-            <div className='c-arrow'>
-                <div className='c-arrow__wrapper'>
-                    <span></span>
-                    <span></span>
-                </div>
+        <a className='c-arrow' href='#about'>
+            <div className='c-arrow__wrapper'>
+                <span></span>
+                <span></span>
             </div>
-        </>
+        </a>
     )
 }
