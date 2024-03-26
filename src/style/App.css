@@ -34,12 +34,6 @@
     --backgroundImageHero: url('../assets/images/heroLight_background.png');
 }
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 html{
     scroll-behavior: smooth;
     max-width: 100%;
