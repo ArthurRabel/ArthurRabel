@@ -62,8 +62,8 @@
     margin-bottom: 15px;
     border-radius: 5px;
 }
-
-.c-project button{
+.c-project a{
+    margin-top: auto;
     cursor: pointer;
     width: 160px;
     padding: 10px 30px;
