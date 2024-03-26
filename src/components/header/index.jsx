@@ -8,7 +8,7 @@ export default function Header() {
     const toggleTheme = () => {
         setIsDarkMode(!isDarkMode);
         // Você pode adicionar lógica adicional aqui para persistir o estado do tema (por exemplo, usando localStorage)
-        document.documentElement.classList.toggle('dark-theme');
+        document.documentElement.classList.toggle('light-theme');
         document.querySelector('.c-header__svg-dark').classList.toggle('c-header__svg--disable');
         document.querySelector('.c-header__svg-light').classList.toggle('c-header__svg--disable');
     };

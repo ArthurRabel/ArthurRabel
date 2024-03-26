@@ -1,7 +1,15 @@
 
 .c-introduction{
-    width: 75vw;
-    margin: 265px auto 300px;
+    background-image: var(--backgroundImageHero);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+.c-introduction__wrapper{
+    padding: 30vh 0;
 }
 .c-introduction h2{
     font-size: var(--titulo-secundario);
@@ -12,6 +20,7 @@
     color: var(--colorFont1);
     font-size: var(--titulo-principal);
     font-weight: 300;
+    margin: 5px 0;
 }
 .c-introduction span{
     color: var(--color1);
