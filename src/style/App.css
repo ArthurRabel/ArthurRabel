@@ -3,9 +3,8 @@
 
 :root{
     --titulo-principal: clamp(24px, 3vw, 40px);
-    --titulo-secundario: clamp(21px, 3vw, 33px);
+    --titulo-secundario: clamp(21px, 3vw, 30px);
     --texto-normal: clamp(15px, 3vw, 20px);
-    Font-size: 2.75vmin; 
 
     /* Paleta de Cores Dark, padrão inicial */
     --color1: #8fdac2;
@@ -15,8 +14,8 @@
     --color5: #15151f;
 
     --colorFont1: #f7f7f7;
-    --colorFont2: #cccccc;
-    --colorFont3: #aaaaaa;
+    --colorFont2: #afafaf;
+    --colorFont3: #757575;
 
     --backgroundImageHero: url('../assets/images/heroDark_background.png');
 }
@@ -24,13 +23,13 @@
     /* Paleta de Cores Light */
     --color1: #758165;
     --color2: #759580;
-    --color3: #D8E5DD;
-    --color4: #f3f3f3;
-    --color5: #ffffff;
+    --color3: #bfd4c7;
+    --color4: #d8e0dd;
+    --color5: #eeeeee;
 
     --colorFont1: #1E1E1E;
     --colorFont2: #555555;
-    --colorFont3: #f7f7f7;
+    --colorFont3: #616161;
 
     --backgroundImageHero: url('../assets/images/heroLight_background.png');
 }
@@ -46,13 +45,6 @@ body{
     background-color: var(--color5);
 }
 
-.title-projects{
-    font-size: var(--titulo-principal);
-    font-weight: 600;
-    color: var(--color1);
-    width: 80%;
-    margin: 150px auto 0;
-}
 .divisor{
     margin: auto;
     width: 80%;
@@ -62,6 +54,7 @@ body{
 
 .wrapper{
     width: 80vw;
+    min-width: 280px;
     max-width: 1200px;
     margin: auto;
 }

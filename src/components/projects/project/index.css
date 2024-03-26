@@ -1,0 +1,127 @@
+.c-project{
+    position: relative;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: var(--color4);
+    transition: 0.3s;
+    filter: opacity(70%);
+    display: flex;
+    flex-direction: column;
+}
+.c-project:hover{
+    transition: 0.3s;
+    filter: opacity(100%);
+}
+
+.c-project::before,
+.c-project::after {
+    content: "";
+    position: absolute;
+    border-color: var(--color1);
+    border-style: solid;
+    width: 30px;
+    height: 30px;
+}
+.c-project::before {
+    top: 0;
+    left: 0;
+    border-width: 2px 0 0 2px;
+    border-top-left-radius: 5px;
+}
+.c-project::after {
+    bottom: 0;
+    right: 0;
+    border-width: 0 2px 2px 0 ;
+    border-bottom-right-radius: 5px;
+}
+
+.c-project img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.c-project h2{
+    font-size: var(--titulo-secundario);
+    color: var(--color1);
+    margin: 10px 0;
+}
+
+.c-project__skills{
+    font-size: var(--texto-normal);
+    color: var(--colorFont1);
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+.c-project__text{
+    font-size: var(--texto-normal);
+    line-height: 1.3;
+    background-color: var(--color5);
+    color: var(--colorFont3);
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.c-project button{
+    cursor: pointer;
+    width: 160px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--color2);
+    font-size: var(--titulo-secundario);
+    color: var(--color3);
+}
+
+/**
+.c-project{
+    margin: 100px auto;
+    width: 90%;
+
+}
+
+.c-project img{
+    width: 45%;
+    border-radius: 10px;
+}
+.c-project div{
+    margin-left: 50px;
+    width: 35%;
+}
+
+
+
+
+@media (max-width:1200px){
+    .c-project{
+        height: auto;
+        width: 90%;
+        margin: 80px auto;
+    }
+    .c-project img{
+        align-self: center;
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .c-project div{
+        width: 100%;
+        margin: 0;
+    }
+}
+@media (max-width:801px){
+    .c-project{
+        margin: 50px auto;
+    }
+    .c-project img{
+        margin-bottom: 60px;
+    }
+}
+@media (max-width:600px){
+    .c-project{
+        margin: 30px auto;
+    }
+    .c-project img{
+        margin-bottom: 40px;
+    }
+}

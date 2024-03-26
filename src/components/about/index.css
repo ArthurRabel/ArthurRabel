@@ -1,14 +1,11 @@
 .c-about{
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.137);
     background-color: var(--color4);
-    margin: -200px auto 0;
-    width: 90%;
-    padding: 150px 0;
     border-bottom: 5px solid var(--color1);
-}
-.c-about__wrapper{
-    margin: auto;
-    width: 75vw;
+    margin: -200px auto 0;
+    width: 85%;
+    max-width: 1400px;
+    padding: 80px;
     display: flex;
     justify-content: space-between;
 }
@@ -62,9 +59,7 @@
 
 @media (max-width:1025px){
     .c-about{
-        padding: 40px 0;
-    }
-    .c-about__wrapper{
+        padding: 40px;
         flex-direction: column;
     }
     .c-about article{
