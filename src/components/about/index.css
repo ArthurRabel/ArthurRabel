@@ -38,6 +38,7 @@
     width: 45%;
 }
 .c-about__icons{
+    margin-top: 20px;
     width: 175px;
     border-radius: 20px;
     background-color: var(--color3);
