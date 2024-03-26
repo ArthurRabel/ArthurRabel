@@ -1,7 +1,7 @@
 .c-about{
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.137);
     background-color: var(--color4);
-    border-bottom: 5px solid var(--color2);
+    border-bottom: 5px solid var(--color1);
     margin: -200px auto 0;
     width: 85%;
     max-width: 1400px;
@@ -15,7 +15,7 @@
 .c-about h2{
     font-size: var(--titulo-secundario);
     font-weight: 500;
-    color: var(--color2);
+    color: var(--color1);
     margin-bottom: 30px;
 }
 .c-about__me p{

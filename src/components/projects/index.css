@@ -4,7 +4,7 @@
 .C-projects__title{
     font-size: var(--titulo-principal);
     font-weight: 600;
-    color: var(--color2);
+    color: var(--color1);
     margin: 120px 0 70px;
 }
 .C-projects__wrapper{
