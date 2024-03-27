@@ -1,4 +1,5 @@
 import './index.css';
+import MinhaFoto from '../../assets/images/profilePic.png';
 
 export default function about() {
     function toAppear(elemento) {
@@ -37,7 +38,7 @@ export default function about() {
                     </div>
                 </div>
             </article>
-            <img alt='Minha foto'></img>
+            <img alt="Minha foto" src={MinhaFoto} width='800'/>
         </section>
     );
 }
