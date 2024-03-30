@@ -25,7 +25,7 @@ export default function about() {
             <article>
                 <div className='c-about__me'>
                     <h2>Um pouco sobre mim</h2>
-                    <p>Meu nome é Arthur, sou um brasiliense, desenvolvedor web, atualmente cursando Análise e Desenvolvimento de Software no IESB. Apaixonado desde a infância por tecnologia, estou em busca de oportunidades para aprimorar meus conhecimentos</p>
+                    <p>Com habilidades em HTML, CSS, JavaScript e frameworks modernos, desenvolvo sites de alto desempenho. Minha abordagem centrada no usuário e minha busca constante pela excelência técnica garantem que cada projeto seja uma combinação única de funcionalidade e design impressionante.</p>
                     <p>Html, CSS, JavaScript, React, Python, Figma, Mysql, Git, Github</p>
                 </div>
                 <div className='c-about__technologies'>
