@@ -26,7 +26,7 @@ export default function about() {
                 <div className='c-about__me'>
                     <h2>Um pouco sobre mim</h2>
                     <p>Com habilidades em HTML, CSS, JavaScript e frameworks modernos, desenvolvo sites de alto desempenho. Minha abordagem centrada no usuário e minha busca constante pela excelência técnica garantem que cada projeto seja uma combinação única de funcionalidade e design impressionante.</p>
-                    <p>Html, CSS, JavaScript, React, Python, Figma, Mysql, Git, Github</p>
+                    <p>Html, CSS, Figma, Sass, Tailwind, JavaScript, React, Python, Mysql, Git, Github</p>
                 </div>
                 <div className='c-about__technologies'>
                     <p><span>Numero:</span> (61) 9 9502-2477</p>
