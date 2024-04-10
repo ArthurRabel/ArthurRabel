@@ -16,37 +16,27 @@
     font-size: var(--titulo-secundario);
     font-weight: 500;
     color: var(--color1); 
+    background: linear-gradient(90deg, var(--color1), var(--color2));
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    animation-delay: 2s; 
 }
 .c-introduction h1{
     color: var(--colorFont1);
     font-size: var(--titulo-principal);
     font-weight: 300;
     margin: 5px 0; 
-    animation-delay: 0.3s;
+    animation-delay: 2.3s;
 }
 .c-introduction span{
     color: var(--color1);
     font-weight: 600;
+    background: linear-gradient(90deg, var(--color1), var(--color2));
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
 }
 .c-introduction p{
     color: var(--colorFont1);
     font-size: var(--texto-normal);
-    animation-delay: 0.7s; 
-}
-.animation{
-    position: relative;
-    left: -200px;
-    opacity: 0; 
-    animation: aparecer 0.5s forwards;
-}
-
-@keyframes aparecer {
-    from {
-        left: -200px; 
-        opacity: 0; 
-    }
-    to {
-        left: 0; 
-        opacity: 1; 
-    }
+    animation-delay: 2.6s; 
 }

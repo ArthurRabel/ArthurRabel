@@ -3,7 +3,7 @@
 }
 .C-projects__title{
     font-size: var(--titulo-principal);
-    font-weight: 600;
+    font-weight: 500;
     color: var(--color1);
     margin: 120px 0 70px;
 }

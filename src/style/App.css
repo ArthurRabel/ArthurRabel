@@ -12,6 +12,7 @@
     --color3: #3a4758;
     --color4: #1d2130;
     --color5: #15151f;
+    --color6: #0e0e14;
 
     --colorFont1: #f7f7f7;
     --colorFont2: #afafaf;
@@ -25,7 +26,8 @@
     --color2: #759580;
     --color3: #bfd4c7;
     --color4: #d8e0dd;
-    --color5: #ffffff;
+    --color5: #e1e7e5;
+    --color6: #f3f3f3;
     
     --colorFont1: #1E1E1E;
     --colorFont2: #555555;
@@ -52,4 +54,22 @@ html{
     min-width: 280px;
     max-width: 1200px;
     margin: auto;
+}
+
+.animation{
+    position: relative;
+    transform: translateX(-100%);
+    opacity: 0;
+    animation: daDireita 0.5s forwards;
+}
+
+@keyframes daDireita {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }

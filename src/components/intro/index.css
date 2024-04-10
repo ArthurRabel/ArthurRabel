@@ -1,0 +1,52 @@
+.c-intro{
+    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color5);
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    animation: sumir 1s forwards;
+    animation-delay: 1.5s;
+}
+.c-intro p{
+    font-size: 1.5rem;
+    color: var(--colorFont1);
+    margin: 0;
+    animation-delay: 0.3s;
+}
+.c-intro__animation{
+    opacity: 0;
+    animation: diretaEsquerda 1.5s forwards;
+}
+@keyframes sumir {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+@keyframes diretaEsquerda {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    20% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    80% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}

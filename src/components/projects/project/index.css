@@ -4,13 +4,13 @@
     border-radius: 5px;
     background-color: var(--color4);
     transition: 0.3s;
-    filter: opacity(70%);
     display: flex;
     flex-direction: column;
+    transform: scale(1);
 }
 .c-project:hover{
+    transform: scale(1.02);
     transition: 0.3s;
-    filter: opacity(100%);
 }
 
 .c-project::before,
@@ -37,7 +37,7 @@
 
 .c-project img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 .c-project h2{
@@ -57,7 +57,7 @@
     font-size: var(--texto-normal);
     line-height: 1.3;
     background-color: var(--color5);
-    color: var(--colorFont3);
+    color: var(--colorFont2);
     padding: 5px;
     margin-bottom: 15px;
     border-radius: 5px;
@@ -65,11 +65,11 @@
 .c-project a{
     margin-top: auto;
     cursor: pointer;
-    width: 160px;
+    width: 100%;
     padding: 10px 30px;
     border: none;
-    border-radius: 20px;
-    background-color: var(--color2);
+    border-radius: 5px;
+    background: linear-gradient(90deg, var(--color1), var(--color2));
     font-size: var(--titulo-secundario);
-    color: var(--color3);
+    color: var(--colorFont4);
 }

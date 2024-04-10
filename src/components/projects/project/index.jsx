@@ -5,8 +5,8 @@ export default function project({urlImg,title,text,skills,urlGithub}) {
         <article className='c-project'>
             <img alt='foto do projeto' src={urlImg} width='800'></img>
             <h2>{title}</h2>
-            <p className='c-project__text'>{text}</p>
             <p className='c-project__skills'>{skills}</p>  
+            <p className='c-project__text'>{text}</p>
             <a href={urlGithub}>Github</a>
         </article>
     );

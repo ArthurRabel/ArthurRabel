@@ -13,17 +13,27 @@
     display: flex;
     align-items: center;
 }
-.c-header a{
+.c-header li{
     margin: 0 25px 0 0;
+}
+.c-header a{
     min-width: 85px;
     font-size: var(--texto-normal);
     transition: 0.2s;
     color: var(--colorFont1);
 }
-.c-header a:hover{
-    color: var(--color2);
-    text-decoration: underline;
+.c-header a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: var(--color2);
+    transition: 0.2s;
 }
+.c-header a:hover::after{
+    width: 100%;
+}
+
 .c-header button{
     background-color: var(--color5);
     border-radius: 20px;

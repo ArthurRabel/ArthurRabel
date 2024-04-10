@@ -17,14 +17,14 @@ export default function projects() {
               urlImg={`https://raw.githubusercontent.com/ArthurRabel/metereologia/main/public/readme/Print.png`}
               title={`Metereologia`}
               text={`Projeto para ver o tempo de qualquer lugar`}
-              skills={`HTML, CSS, JAVASCRIPT, REACT`}
+              skills={`HTML, CSS, JAVASCRIPT e REACT`}
               urlGithub={`https://github.com/ArthurRabel/metereologia`}
             />
             <Project 
               urlImg={`https://raw.githubusercontent.com/ArthurRabel/SistemaEscolar/main/readmePhoto/desktop.PNG`}
               title={`Sistema Login Escolar`}
               text={`Sistema de login feito em conjunto com Jonas Anderson(Github: Jonas010) para treinar`}
-              skills={`HTML, CSS, JAVASCRIPT, JAVA, SPRING, MYSQL`}
+              skills={`HTML, CSS, JAVASCRIPT, JAVA, SPRING e MYSQL`}
               urlGithub={`https://github.com/ArthurRabel/SistemaEscolar`}
             />
           </div>
