@@ -11,21 +11,21 @@ export default function projects() {
               title={`IfDiversidades`}
               text={`O projeto consiste em usar a tecnologia e os conhecimentos técnicos do curso do instituto federal de brasilia disponíveis para criar um site`}
               skills={`HTML, CSS e JAVASCRIPT`}
-              urlGithub={`https://github.com/ifDiversidades/ifDiversidades`}
+              urlAcessar={`https://arthurrabel.github.io/IFDiversidades/`}
             />
             <Project 
               urlImg={`https://raw.githubusercontent.com/ArthurRabel/metereologia/main/public/readme/Print.png`}
-              title={`Metereologia`}
+              title={`Clima`}
               text={`Projeto para ver o tempo de qualquer lugar`}
               skills={`HTML, CSS, JAVASCRIPT e REACT`}
-              urlGithub={`https://github.com/ArthurRabel/metereologia`}
+              urlAcessar={`https://clima-rabelo.vercel.app`}
             />
             <Project 
-              urlImg={`https://raw.githubusercontent.com/ArthurRabel/SistemaEscolar/main/readmePhoto/desktop.PNG`}
-              title={`Sistema Login Escolar`}
-              text={`Sistema de login feito em conjunto com Jonas Anderson(Github: Jonas010) para treinar`}
-              skills={`HTML, CSS, JAVASCRIPT, JAVA, SPRING e MYSQL`}
-              urlGithub={`https://github.com/ArthurRabel/SistemaEscolar`}
+              urlImg={`https://raw.githubusercontent.com/ArthurRabel/mathRandom/main/public/readme/printDesktop.png`}
+              title={`Math Random`}
+              text={`Gamer para treinar operações matemáticas básicas`}
+              skills={`HTML, JAVASCRIPT, REACT e TAILWIND`}
+              urlAcessar={`https://rabelo-mathrandom.vercel.app`}
             />
           </div>
         </section>
