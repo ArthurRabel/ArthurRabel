@@ -7,7 +7,7 @@ export default function project({urlImg,title,text,skills,urlAcessar}) {
             <h2>{title}</h2>
             <p className='c-project__skills'>{skills}</p>  
             <p className='c-project__text'>{text}</p>
-            <a href={urlAcessar}>Acessar</a>
+            <a href={urlAcessar} target="_blank">Acessar</a>
         </article>
     );
 }
