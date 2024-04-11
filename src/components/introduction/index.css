@@ -28,7 +28,7 @@
     margin: 5px 0; 
     animation-delay: 2.3s;
 }
-.c-introduction span{
+.c-introduction__special_Text{
     color: var(--color1);
     font-weight: 600;
     background: linear-gradient(90deg, var(--color1), var(--color2));

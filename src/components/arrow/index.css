@@ -5,7 +5,7 @@
   height: 50px;
   opacity: 0;
   animation: aparecer 1.5s forwards;
-  animation-delay: 3s; 
+  animation-delay: 3.0s; 
 }
 .c-arrow__wrapper{
   display: flex;
@@ -13,7 +13,7 @@
   justify-content: center;
   position: relative;
   animation: quicar 1s infinite alternate;
-  animation-delay: 2.5s; 
+  animation-delay: 3s; 
 }
 .c-arrow span:first-child {
   border-radius: 10px;
