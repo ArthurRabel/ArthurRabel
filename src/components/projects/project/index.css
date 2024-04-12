@@ -2,19 +2,19 @@
     position: relative;
     padding: 30px;
     border-radius: 5px;
-    background-color: var(--color4);
+    border: 1px solid var(--color3);
     transition: 0.3s;
     display: flex;
     flex-direction: column;
     transform: scale(1);
 }
 .c-project:hover{
-    transform: scale(1.02);
+    transform: scale(1.015);
     transition: 0.3s;
 }
 
-.c-project::before,
-.c-project::after {
+.c-project:hover::before,
+.c-project:hover::after {
     content: "";
     position: absolute;
     border-color: var(--color1);
@@ -22,13 +22,13 @@
     width: 30px;
     height: 30px;
 }
-.c-project::before {
+.c-project:hover::before {
     top: 0;
     left: 0;
     border-width: 2px 0 0 2px;
     border-top-left-radius: 5px;
 }
-.c-project::after {
+.c-project:hover::after {
     bottom: 0;
     right: 0;
     border-width: 0 2px 2px 0 ;
@@ -50,7 +50,7 @@
     font-size: var(--texto-normal);
     color: var(--colorFont1);
     line-height: 1.3;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .c-project__text{
@@ -58,7 +58,6 @@
     line-height: 1.3;
     background-color: var(--color5);
     color: var(--colorFont2);
-    padding: 5px;
     margin-bottom: 15px;
     border-radius: 5px;
 }
@@ -69,7 +68,11 @@
     padding: 10px 30px;
     border: none;
     border-radius: 5px;
-    background: linear-gradient(90deg, var(--color1), var(--color2));
+    background: linear-gradient(90deg, var(--color1), var(--color3));
     font-size: var(--titulo-secundario);
     color: var(--colorFont4);
+}
+
+.c-project a:hover{
+    background: linear-gradient(90deg, var(--color2), var(--color1));
 }
