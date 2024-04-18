@@ -2,9 +2,9 @@
     margin: 120px auto 50px;
 }
 .C-projects__title{
-    font-size: var(--titulo-principal);
+    font-size: var(--font-size-title);
     font-weight: 500;
-    color: var(--color1);
+    color: var(--color-primary);
     margin: 120px 0 70px;
 }
 .C-projects__wrapper{

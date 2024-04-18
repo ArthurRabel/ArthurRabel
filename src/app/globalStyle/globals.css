@@ -1,0 +1,153 @@
+/* As classes do file globals irão ter o prefixo 'gs' */
+
+:root{
+  /* Font size */
+  --font-size-title: clamp(24px, 3vw, 40px);
+  --font-size-contrast: clamp(21px, 3vw, 30px);
+  --font-size-normal: clamp(15px, 3vw, 20px);
+}
+
+/**************** Controle do tema de cores por button ****************/
+.gs-light{
+  /* Paleta de Cores light */
+  --color-primary: #219682;
+  --color-secondary: #34ad6b;
+  --color-bg-1: #d8e0dd;
+  --color-bg-2: #e5e9e7;
+  --color-bg-3: #f3f3f3;
+  --color-font-1: #1E1E1E;
+  --color-font-2: #3f3f3f;
+  --color-font-3: #f3f3f3;
+
+  /* Background image hero */
+  --bg-Hero: url('../../assets/images/heroLight_background.png');
+}
+.gs-dark{
+  /* Paleta de Cores Dark */
+  --color-primary: #8fdac2;
+  --color-secondary: #75cce9;
+  --color-bg-1: #0e1314;
+  --color-bg-2: #191d1d;
+  --color-bg-3: #202424;
+  --color-font-1: #f0f0f0;
+  --color-font-2: #d1d1d1;
+  --color-font-3: #2c2c2c;
+
+  /* Background image hero */
+  --bg-Hero: url('../../assets/images/heroDark_background.png');
+}
+
+/**************** Controle do tema de cores por preferencia do navegador ****************/
+@media (prefers-color-scheme: light) {
+  :root:not(.gs-light):not(.gs-dark) {
+    /* Paleta de Cores light */
+    --color-primary: #219682;
+    --color-secondary: #34ad6b;
+    --color-bg-1: #d8e0dd;
+    --color-bg-2: #e5e9e7;
+    --color-bg-3: #f3f3f3;
+    --color-font-1: #1E1E1E;
+    --color-font-2: #3f3f3f;
+    --color-font-3: #f3f3f3;
+
+    /* Background image hero */
+    --bg-Hero: url('../../assets/images/heroLight_background.png');
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root:not(.gs-light):not(.gs-dark) {
+    /* Paleta de Cores Dark */
+    --color-primary: #8fdac2;
+    --color-secondary: #75cce9;
+    --color-bg-1: #0e1314;
+    --color-bg-2: #191d1d;
+    --color-bg-3: #202424;
+    --color-font-1: #f0f0f0;
+    --color-font-2: #d1d1d1;
+    --color-font-3: #2c2c2c;
+
+    /* Background image hero */
+    --bg-Hero: url('../../assets/images/heroDark_background.png');
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+  max-width: 100%;
+  background-color: var(--color-bg-1);
+}
+
+.gs-wrapper{
+  width: 80vw;
+  min-width: 280px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.gs-animation-from-left{
+  position: relative;
+  transform: translateX(-100%);
+  opacity: 0;
+  animation: fromleft 0.5s forwards;
+}
+
+@keyframes showUp {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes disappear {
+  0% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+      display: none;
+  }
+}
+
+@keyframes jump {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 10px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes fromleft {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+@keyframes leftToRight {
+  0% {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  20% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+  80% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+  100% {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+}

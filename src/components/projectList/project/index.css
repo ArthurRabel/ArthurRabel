@@ -2,7 +2,7 @@
     position: relative;
     padding: 30px;
     border-radius: 5px;
-    border: 1px solid var(--color3);
+    border: 1px solid var(--color-bg-3);
     transition: 0.3s;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@
 .c-project:hover::after {
     content: "";
     position: absolute;
-    border-color: var(--color1);
+    border: var(--color-primary);
     border-style: solid;
     width: 30px;
     height: 30px;
@@ -41,23 +41,23 @@
 }
 
 .c-project h2{
-    font-size: var(--titulo-secundario);
-    color: var(--color1);
+    font-size: var(--font-size-contrast);
+    color: var(--color-primary);
     margin: 10px 0;
 }
 
 .c-project__skills{
-    font-size: var(--texto-normal);
-    color: var(--colorFont1);
+    font-size: var(--font-size-normal);
+    color: var(--color-font-1);
     line-height: 1.3;
     margin-bottom: 5px;
 }
 
 .c-project__text{
-    font-size: var(--texto-normal);
+    font-size: var(--font-size-normal);
     line-height: 1.3;
-    background-color: var(--color5);
-    color: var(--colorFont2);
+    background-color: var(--color-bg-3);
+    color: var(--color-font-2);
     margin-bottom: 15px;
     border-radius: 5px;
 }
@@ -68,11 +68,11 @@
     padding: 10px 30px;
     border: none;
     border-radius: 5px;
-    background: linear-gradient(90deg, var(--color1), var(--color3));
-    font-size: var(--titulo-secundario);
-    color: var(--colorFont4);
+    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+    font-size: var(--font-size-contrast);
+    color: var(--color-font-3);
 }
 
 .c-project a:hover{
-    background: linear-gradient(90deg, var(--color2), var(--color1));
+    background: linear-gradient(90deg, var(--color-secondary), var(--color-primary));
 }

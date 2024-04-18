@@ -1,9 +1,9 @@
-import Project from './project/index';
+import Project from './project/index.js';
 import './index.css';
 
 export default function projects() {
     return (
-        <section className='C-projects wrapper'>
+        <section className='C-projects gs-wrapper'>
           <h2 className='C-projects__title' id='projects'>Projetos</h2>
           <div className='C-projects__wrapper'>
             <Project 

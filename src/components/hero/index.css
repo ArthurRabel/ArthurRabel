@@ -1,6 +1,6 @@
 
 .c-introduction{
-    background-image: var(--backgroundImageHero);
+    background-image: var(--bg-Hero);
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,30 +13,27 @@
     padding: 30vh 0;
 }
 .c-introduction h2{
-    font-size: var(--titulo-secundario);
+    font-size: var(--font-size-contrast);
     font-weight: 500;
-    color: var(--color1); 
-    background: linear-gradient(90deg, var(--color1), var(--color2));
-    background-clip: text; 
-    -webkit-text-fill-color: transparent; 
+    color: var(--color-secondary); 
     animation-delay: 2s; 
 }
 .c-introduction h1{
-    color: var(--colorFont1);
-    font-size: var(--titulo-principal);
+    color: var(--color-font-1);
+    font-size: var(--font-size-title);
     font-weight: 300;
     margin: 5px 0; 
     animation-delay: 2.3s;
 }
 .c-introduction__special_Text{
-    color: var(--color1);
+    color: var(--color-primary);
     font-weight: 600;
-    background: linear-gradient(90deg, var(--color1), var(--color2));
+    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
     background-clip: text; 
     -webkit-text-fill-color: transparent; 
 }
 .c-introduction p{
-    color: var(--colorFont1);
-    font-size: var(--texto-normal);
+    color: var(--color-font-1);
+    font-size: var(--font-size-normal);
     animation-delay: 2.6s; 
 }

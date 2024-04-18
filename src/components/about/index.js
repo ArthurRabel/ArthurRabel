@@ -1,24 +1,30 @@
+"use client";
+import { useEffect } from 'react';
 import './index.css';
-import MinhaFoto from '../../assets/images/profilePic.png';
 
 export default function about() {
-    function toAppear(elemento) {
-        const heightVw = window.innerHeight;
-        const elementIndex = elemento.getBoundingClientRect().top;
-        
-        return elementIndex < heightVw;
-    }
-        
-    function handleScroll() {
-        const element = document.querySelector('.to-hide');
-        
-        if (toAppear(element)) {
-            element.classList.add('to-appear');
+    useEffect(() => {
+        function toAppear(elemento) {
+            const heightVw = window.innerHeight * 0.75;
+            const elementIndex = elemento.getBoundingClientRect().top;
+            
+            return elementIndex < heightVw;
         }
-    }
-        
-    // Adiciona um event listener para o evento scroll
-    window.addEventListener('scroll', handleScroll);
+            
+        function handleScroll() {
+            const element = document.querySelector('.to-hide');
+            
+            if (toAppear(element)) {
+                element.classList.add('to-appear');
+            }
+        }
+            
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     return (
         <section id='about' className='c-about to-hide'>
@@ -38,7 +44,7 @@ export default function about() {
                     </div>
                 </div>
             </article>
-            <img alt="Minha foto" src={MinhaFoto} width='800'/>
+            <img alt="Minha foto" src="/profilePic.png" width='800'/>
         </section>
     );
 }
