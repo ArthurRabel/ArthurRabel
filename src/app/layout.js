@@ -1,9 +1,11 @@
 import "./globalStyle/reset.css";
 import "./globalStyle/globals.css";
 import { Inter } from "next/font/google";
+import { Analytics } from '@vercel/analytics/react';
 import Intro from "./../components/intro/index.js";
 import Header from "./../components/header/index.js";
 import Footer from "./../components/footer/index.js";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,6 +45,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
