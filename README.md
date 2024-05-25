@@ -12,7 +12,7 @@
 
 ## 🛠 Estudando Front-End: 
 
-`HTML` `CSS` `SASS` `JavaScript` `TypeScript` `Python` `React` `tailwind` `React`
+`HTML` `CSS` `SASS` `JavaScript` `TypeScript` `Python` `React` `tailwind` 
 
 ## Entrar em contato comigo por:
 
