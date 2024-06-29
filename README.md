@@ -1,8 +1,6 @@
 <p align="center">
-   <img src="https://capsule-render.vercel.app/api?type=waving&height=70&color=eeeeee&section=header">
+   <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=eeeeee&text=Arthur%20Rabelo&section=header&fontAlignY=35&descAlign=50&descAlignY=50&reversal=true&fontSize=40&fontAlign=50&fontColor=005C53&textBg=false&animation=fadeIn">
 </p>
-
-# Arthur Da Mata Rabelo
 
 ## 👋 Sobre min:
 <img align='right' src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArthurRabel&layout=compact&hide=css,html&bg_color=161b2200&title_color=cdd9e5&border_color=545d68&text_color=eeeeee&border_radius=0">
@@ -36,5 +34,5 @@
 <a href="https://api.whatsapp.com/send?phone=5561995022477"><img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=API-DO-SEU-WHATSAPP" alt="WhatsApp" /></a>
 
 <p align="center">
-   <img src="https://capsule-render.vercel.app/api?type=waving&height=70&color=eeeeee&section=footer">
+   <img src="https://capsule-render.vercel.app/api?type=waving&height=85&color=eeeeee&section=footer">
 </p>
