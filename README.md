@@ -1,11 +1,9 @@
 <p align="center">
-   <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=eeeeee&text=Arthur%20Rabelo&section=header&fontAlignY=35&descAlign=50&descAlignY=50&reversal=true&fontSize=40&fontAlign=50&fontColor=005C53&textBg=false&animation=fadeIn">
+   <img src="https://capsule-render.vercel.app/api?type=waving&height=170&color=eeeeee&text=Arthur%20Rabelo&section=header&fontAlignY=35&descAlign=50&descAlignY=50&reversal=true&fontSize=40&fontAlign=50&fontColor=005C53&textBg=false&animation=fadeIn&desc=Desenvolvedor%20Web%20Full-Stack">
 </p>
 
 ## 👋 Sobre min:
 <img align='right' src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArthurRabel&layout=compact&hide=css,html&bg_color=161b2200&title_color=cdd9e5&border_color=545d68&text_color=eeeeee&border_radius=0">
-
-**- Desenvolvedor Web Full-Stack**
 
 **- Estágiando na Policia Federal**
 
