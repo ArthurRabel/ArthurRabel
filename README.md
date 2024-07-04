@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="https://capsule-render.vercel.app/api?type=waving&height=170&color=eeeeee&text=Arthur%20Rabelo&section=header&fontAlignY=35&descAlign=50&descAlignY=50&reversal=true&fontSize=40&fontAlign=50&fontColor=005C53&textBg=false&animation=fadeIn&desc=Desenvolvedor%20Web%20Full-Stack">
+   <img src="https://capsule-render.vercel.app/api?type=waving&height=170&color=ffffff&text=Arthur%20Rabelo&section=header&fontAlignY=35&descAlign=50&descAlignY=50&reversal=true&fontSize=40&fontAlign=50&fontColor=005C53&textBg=false&animation=fadeIn&desc=Desenvolvedor%20Web%20Full-Stack">
 </p>
 
 ## 👋 Sobre min:
@@ -36,5 +36,5 @@ https://arthurrabelo.com.br/
 <a href="https://api.whatsapp.com/send?phone=5561995022477"><img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=API-DO-SEU-WHATSAPP" alt="WhatsApp" /></a>
 
 <p align="center">
-   <img src="https://capsule-render.vercel.app/api?type=waving&height=85&color=eeeeee&section=footer">
+   <img src="https://capsule-render.vercel.app/api?type=waving&height=85&color=ffffff&section=footer">
 </p>
