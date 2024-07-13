@@ -21,7 +21,6 @@ https://arthurrabelo.com.br/
 
 - **Html**
 - **Css**
-- **Sass**
 - **JavaScript**
 - **React**
 - **Tailwind**
