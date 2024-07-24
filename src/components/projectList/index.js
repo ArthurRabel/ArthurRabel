@@ -11,7 +11,7 @@ export default function projects() {
                 title={`IfDiversidades`}
                 text={`O projeto consiste em usar a tecnologia e os conhecimentos técnicos do curso do instituto federal de brasilia disponíveis para criar um site`}
                 skills={`HTML, CSS e JAVASCRIPT`}
-                urlAcessar={`https://arthurrabel.github.io/IFDiversidades/`}
+                urlAcessar={`https://ifdiversidades.github.io/ifDiversidades/`}
               />
               <Project 
                 urlImg={`https://raw.githubusercontent.com/ArthurRabel/metereologia/main/public/readme/Print.png`}
