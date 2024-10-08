@@ -5,6 +5,10 @@
 ## 👋 Sobre min:
 <img align='right' src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArthurRabel&layout=compact&hide=css,html&bg_color=161b2200&title_color=cdd9e5&border_color=545d68&text_color=eeeeee&border_radius=0">
 
+**- Estagiário na Policia Federal.**
+
+**- Lider do Back-End do projeto complementar Prontuario(Iesb)**
+
 **- Análise e Desenvolvimento de Sistemas**
    
 **- Tecnico de Informatica**
@@ -17,15 +21,15 @@ https://arthurrabelo.com.br/
 
 ## 🚀 Estudando:
 
-- **Html**
-- **Css**
-- **JavaScript**
-- **React**
-- **Tailwind**
-- **Python**
-- **FastApi**
-- **Postgres**
-- **Podman**
+**- HTML**, **CSS**
+
+**- JavaScript**, **NextJs**
+
+**- Tailwind**, **Styled-Component**
+
+**- Python**, **FastApi**
+
+**- Podman**, **Postgres**
 
 ## 🔎 Contatos: 
 
