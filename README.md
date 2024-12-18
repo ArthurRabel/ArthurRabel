@@ -7,8 +7,6 @@
 
 **- Estagiário na Policia Federal.**
 
-**- Lider do Back-End do projeto complementar Prontuario(Iesb)**
-
 **- Análise e Desenvolvimento de Sistemas**
    
 **- Tecnico de Informatica**
@@ -21,15 +19,17 @@ https://arthurrabelo.com.br/
 
 ## 🚀 Estudando:
 
-**- HTML**, **CSS**
+**- HTML**, **CSS**, **JavaScript**
 
-**- JavaScript**, **NextJs**
+**- Nestjs**, **NextJs**
 
 **- Tailwind**, **Styled-Component**
 
 **- Python**, **FastApi**
 
-**- Podman**, **Postgres**
+**- Docker**, **Podman**
+
+**- Nginx**, **Linux**
 
 ## 🔎 Contatos: 
 
