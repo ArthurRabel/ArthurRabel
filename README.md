@@ -5,7 +5,7 @@
 ## 👋 Sobre min:
 <img align='right' src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArthurRabel&layout=compact&hide=css,html&bg_color=161b2200&title_color=cdd9e5&border_color=545d68&text_color=eeeeee&border_radius=0">
 
-**- Estagiário na Policia Federal.**
+**- Desenvolvedor de software na Policia Federal.**
 
 **- Análise e Desenvolvimento de Sistemas**
    
