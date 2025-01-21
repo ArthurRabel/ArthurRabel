@@ -1,0 +1,72 @@
+.ExperiencesSection {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.ExperiencesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.ExperiencesCard {
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.ExperiencesCard:hover {
+  transform: translateY(-5px);
+}
+
+.jobTitle {
+  font-size: 1.25rem;
+  color: var(--color-font-1);
+  margin-bottom: 0.5rem;
+}
+
+.company {
+  font-weight: bold;
+  color: var(--color-font-2);
+  margin-bottom: 0.25rem;
+}
+
+.period {
+  font-style: italic;
+  color: var(--color-font-2);
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: var(--color-font-2);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.techBadge {
+  background-color: var(--color-primary);
+  color: var(--color-font-4);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+  .ExperiencesList {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,40 @@
+.techScrollContainer {
+  overflow: hidden;
+  background-color: var(--color-bg-1);
+  padding: 20px 0;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.techScroll {
+  display: inline-block;
+  animation: scroll linear infinite;
+}
+
+.techItem {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: var(--color-bg-3);
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  color: #333;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.techItem:hover {
+  background-color: var(--color-bg-4);
+  transform: scale(1.1);
+  color: var(--color-font-2);
+  transition: all 0.3s ease;
+}
+

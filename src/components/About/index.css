@@ -7,7 +7,7 @@
     max-width: 1300px;
     padding: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .c-about article{
     width: 48%;
@@ -35,7 +35,8 @@
     font-weight: 500;
 }
 .c-about img{
-    width: 48%;
+    border-radius: 50%;
+    width: 28%;
     height: fit-content;
 }
 .c-about__icons{
@@ -65,7 +66,7 @@
     }
     .c-about img{
         width: 100%;
-        max-width: 500px;
+        max-width: 300px;
         margin: 50px auto 0;
         height: fit-content;
     }

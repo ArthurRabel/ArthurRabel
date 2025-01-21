@@ -31,8 +31,11 @@ export default function about() {
             <article>
                 <div className='c-about__me'>
                     <h2>Um pouco sobre mim</h2>
-                    <p>Com habilidades em HTML, CSS, JavaScript e frameworks modernos, desenvolvo sites de alto desempenho. Minha abordagem centrada no usuário e minha busca constante pela excelência técnica garantem que cada projeto seja uma combinação única de funcionalidade e design impressionante.</p>
-                    <p>Html, CSS, Figma, Sass, Tailwind, JavaScript, React, Python, Mysql, Git, Github</p>
+                    <p>
+                        Olá, meu nome é Arthur Rabelo, sou desenvolvedor web e estudante de Analise e Desenvolvimento de sistemas.
+                        Com experiencia em desenvolvimento web, do front-end até o back-end.
+                        Com conhecimento nas principais tecnologias de desenvolvimento web do mercado, desenvolvo sites de alto desempenho, com ótima organização e rapidez.
+                    </p>
                 </div>
                 <div className='c-about__technologies'>
                     <p><span>Numero:</span> (61) 9 9502-2477</p>
@@ -44,7 +47,7 @@ export default function about() {
                     </div>
                 </div>
             </article>
-            <img alt="Minha foto" src="/profilePic.png" width='800'/>
+            <img alt="Minha foto" src="/icon-ubuntu.png" width='800'/>
         </section>
     );
 }

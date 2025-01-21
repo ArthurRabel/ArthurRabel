@@ -2,9 +2,9 @@ import "./globalStyle/reset.css";
 import "./globalStyle/globals.css";
 import { Inter } from "next/font/google";
 import { Analytics } from '@vercel/analytics/react';
-import Intro from "./../components/intro/index.js";
-import Header from "./../components/header/index.js";
-import Footer from "./../components/footer/index.js";
+import Intro from "../components/Intro/index.js";
+import Header from "../components/Header/index.js";
+import Footer from "../components/Footer/index.js";
 
 
 const inter = Inter({ subsets: ["latin"] });
