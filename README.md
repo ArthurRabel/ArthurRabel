@@ -3,7 +3,7 @@
 </p>
 
 ## 👋 Sobre min:
-<img align='right' src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArthurRabel&layout=compact&hide=css,html&bg_color=161b2200&title_color=cdd9e5&border_color=545d68&text_color=eeeeee&border_radius=0">
+<img align='right' src="https://github-readme-stats.vercel.app/api?username=ArthurRabel&hide=contribs&layout=compact&theme=transparent&title_color=cdd9e5&border_color=545d68&text_color=eeeeee&border_radius=0">
 
 **- Desenvolvedor de software na Policia Federal.**
 
@@ -18,6 +18,7 @@ https://arthurrabelo.com.br/
 
 
 ## 🚀 Estudando:
+<img align='right' src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArthurRabel&hide=css,html&bg_color=161b2200&title_color=cdd9e5&border_color=545d68&text_color=eeeeee&border_radius=0">
 
 **- HTML**, **CSS**, **JavaScript**
 
