@@ -32,6 +32,8 @@ https://arthurrabelo.com.br/
 
 **- Nginx**, **Linux**
 
+**- Postgres**
+
 ## 🔎 Contatos: 
 
 <a href="https://www.linkedin.com/in/arthur-da-mata-rabelo-5663871b6"><img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=LINK-DO-SEU-LINKEDIN" alt="LinkedIn" /></a>
