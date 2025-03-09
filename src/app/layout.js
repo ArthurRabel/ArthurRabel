@@ -1,5 +1,6 @@
 import "./globalStyle/reset.css";
 import "./globalStyle/globals.css";
+import Script from "next/script";
 import { Inter } from "next/font/google";
 import { Analytics } from '@vercel/analytics/react';
 import Intro from "../components/Intro/index.js";
@@ -38,6 +39,25 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href={metadata.manifestHref} />
         <link rel="mask-icon" href={metadata.maskIconHref} color="#5bbad5" />
         <link rel="stylesheet" href={inter.url} />
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-6D3G294Z71"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-6D3G294Z71', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
       </head>
 
       <body className={inter.className}>
