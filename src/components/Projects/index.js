@@ -1,6 +1,14 @@
 import style from './index.module.css';
 
 const ProjectsList = [
+    {
+    urlImg: `https://raw.githubusercontent.com/fabrica-bayarea/novoTrello/refs/heads/dev/front-end/public/images/iesb-icon.png`,
+    title: `Novo Trello`,
+    date: `~ 2025`,
+    text: `Uma plataforma de gerenciamento de tarefas baseada no modelo Kanban.`,
+    skills: `NEXTJS, NESTjS, PRISMA, POSTGRES, NGINX, DOCKER`,
+    urlAcessar: `https://github.com/fabrica-bayarea/novoTrello/tree/dev`,
+  },
   {
     urlImg: `https://raw.githubusercontent.com/ArthurRabel/mapFeature/main/frontEnd/src/assets/preview-md.png`,
     title: `Map Feature`,
@@ -16,14 +24,6 @@ const ProjectsList = [
     text: `Gamer para treinar operações matemáticas básicas`,
     skills: `HTML, JAVASCRIPT, REACT e TAILWIND`,
     urlAcessar: `https://rabelo-mathrandom.vercel.app`,
-  },
-    {
-    urlImg: `https://raw.githubusercontent.com/ifDiversidades/ifDiversidades/main/midia/img/readme/desktop.PNG`,
-    title: `IfDiversidades`,
-    date: `~ 2022`,
-    text: `O projeto consiste em usar a tecnologia e os conhecimentos técnicos do curso do instituto federal de brasilia disponíveis para criar um site`,
-    skills: `HTML, CSS e JAVASCRIPT`,
-    urlAcessar: `https://ifdiversidades.github.io/ifDiversidades/`,
   },
 ]
 

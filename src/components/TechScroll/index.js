@@ -2,7 +2,6 @@ import React from "react"
 import style from "./style.module.css"
 
 const technologies = [
-  "Wordpress",
   "HTML",
   "CSS",
   "JavaScript",
@@ -10,7 +9,7 @@ const technologies = [
   "Docker",
   "PostgreSQL",
   "NestJS",
-  "Next.js",
+  "NextJs",
   "Python",
   "FastAPI",
   "Ubuntu",
@@ -21,13 +20,8 @@ const TechScroll = ({ speed }) => {
   return (
     <div className={style.techScrollContainer}>
       <div className={style.techScroll} style={{ animationDuration: `${speed}s` }}>
-        {technologies.map((tech, index) => (
+        {[...technologies, ...technologies, ...technologies].map((tech, index) => (
           <span key={index} className={style.techItem}>
-            {tech}
-          </span>
-        ))}
-        {technologies.map((tech, index) => (
-          <span key={`${index}-duplicate`} className={style.techItem}>
             {tech}
           </span>
         ))}

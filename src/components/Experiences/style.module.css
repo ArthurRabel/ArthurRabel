@@ -30,6 +30,7 @@
 .jobTitle {
   font-size: 1.25rem;
   color: var(--color-font-1);
+  font-size: var(--font-size-contrast);
   margin-bottom: 0.5rem;
 }
 
@@ -47,6 +48,7 @@
 
 .description {
   color: var(--color-font-2);
+  font-size: var(--font-size-normal);
   margin-bottom: 1rem;
   line-height: 1.6;
 }
@@ -60,9 +62,9 @@
 .techBadge {
   background-color: var(--color-primary);
   color: var(--color-font-4);
+  font-size: var(--font-size-normal);
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
-  font-size: 0.875rem;
 }
 
 @media (max-width: 768px) {

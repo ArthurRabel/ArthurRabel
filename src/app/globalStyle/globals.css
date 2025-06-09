@@ -3,7 +3,7 @@
 :root{
   --font-size-title: clamp(24px, 3vw, 40px);
   --font-size-contrast: clamp(21px, 3vw, 30px);
-  --font-size-normal: clamp(15px, 3vw, 20px);
+  --font-size-normal: clamp(17px, 3vw, 20px);
 }
 
 

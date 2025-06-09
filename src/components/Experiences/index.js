@@ -7,7 +7,7 @@ const Experiencess = [
     period: "Abr 2024 - Presente",
     description: 
       "Desenvolvimento do projeto Inteligeo, plataforma integrada para dados geoespaciais da policia federal.",
-    technologies: ["Javascript", "React", "Python", "Pytest", "Fastapi", "PostgreSQL", "Podman", "Git"],
+    technologies: ["Javascript", "React", "Python", "Pytest", "Fastapi", "PostgreSQL", "Podman", "Git", "Nginx"],
   },
   {
     title: "Suporte Tecnico",
@@ -15,7 +15,7 @@ const Experiencess = [
     period: "Mar 2023 - fev 2024",
     description:
       "Durante o serviço obrigatório militar trabalhei como auxiliar na seção de informática, realizando desenvolvimento web front-end e manutenção de hardware.",
-    technologies: ["React", "Javascript", "Html", "Css", "git", "MySql"],
+    technologies: ["Javascript", "Html", "Css", "git", "PHP", "MySql"],
   },
 ]
 

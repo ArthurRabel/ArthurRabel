@@ -59,7 +59,10 @@
 }
 
 .project img{
-    width: 100%;
+    width: max-content;
+    max-width: 100%;
+    margin: auto;
+    max-height: 200px;
     border-radius: 3px;
 }
 
